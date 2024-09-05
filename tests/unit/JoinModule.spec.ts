@@ -1,8 +1,8 @@
-import {expect, it, describe} from '@jest/globals';
-import createJoinModule from '../src';
+import { test } from '@japa/runner'
+import createJoinModule from '#src/index';
 
-describe('JoinModule', () => {
-  it('should include files correctly', async () => {
+test.group('JoinModule', () => {
+  test('should include files correctly', async ({ expect }) => {
     const joinModule = createJoinModule({ cwd: process.cwd(), logging: { loggingType: 'console', verbose: false, logger: console } });
 
     joinModule.include('src');
@@ -10,7 +10,7 @@ describe('JoinModule', () => {
     expect(joinModule).toBeTruthy();
   });
 
-  it('should exclude files correctly', async () => {
+  test('should exclude files correctly', async ({ expect }) => {
     const joinModule = createJoinModule({ cwd: process.cwd(), logging: { loggingType: 'console', verbose: false, logger: console } });
 
     joinModule.include('src');

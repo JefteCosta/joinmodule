@@ -1,4 +1,4 @@
-import fs from 'fs';
+import * as fs from 'fs';
 import path from 'path';
 import { JoinModuleOptions } from '#interfaces/JoinModuleOptions';
 import { Logger } from '#src/core/Logger';
@@ -52,7 +52,7 @@ export class JoinModule {
     }
   }
 
-  private createNamespace(target: object, name: string, mod: any): void {
+  private createNamespace(target: any, name: string, mod: any): void {
     if (typeof mod === 'function') {
       target[name] = mod();
     } else {

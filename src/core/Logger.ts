@@ -20,3 +20,4 @@ export class Logger {
       this.logFileStream.write(logMessage + '\n');
     }
   }
+}
