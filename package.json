@@ -1,0 +1,43 @@
+{
+  "name": "joinmodule",
+  "version": "1.0.0",
+  "description": "Autoload your script with Typescript support.",
+  "type": "module",
+  "main": "dist/server.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/JefteCosta/joinmodule.git"
+  },
+  "keywords": [
+    "autoload",
+    "typescript",
+    "npm-module",
+    "esnext",
+    "consign"
+  ],
+  "author": "JefteCosta",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JefteCosta/joinmodule/issues"
+  },
+  "homepage": "https://github.com/JefteCosta/joinmodule#readme",
+  "devDependencies": {
+    "@types/node": "^22.5.3",
+    "jest": "^29.7.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.5.4"
+  },
+  "imports": {
+    "#interfaces/*": "./src/interfaces/*.js",
+    "#models/*": "./src/models/*.js",
+    "#services/*": "./src/services/*.js",
+    "#utils/*": "./src/utils/*.js",
+    "#src/*": "./src/*.js",
+    "#managers/*": "./src/managers/*.js",
+    "#servers/*": "./src/servers/*.js"
+  }
+}
