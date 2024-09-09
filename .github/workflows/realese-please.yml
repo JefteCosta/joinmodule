@@ -6,6 +6,9 @@ name: release-please-main
 jobs:
   release-please:
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      id-token: write
     steps:
       - uses: googleapis/release-please-action@v4
         id: release
@@ -33,7 +36,10 @@ jobs:
         with:
           node-version: "20.x"
           registry-url: "https://registry.npmjs.org"
-      - run: npm ci
-      - run: npm publish --provenance --access public
+      - name: public versions to npm
+        if: ${{ steps.release.outputs.release_created }}
+        run: |
+          npm ci
+          npm publish --provenance --access public
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}

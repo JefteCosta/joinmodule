@@ -9,12 +9,14 @@ Autoload your scripts with TypeScript support.
 
 ```bash
 npm install joinmodule
-
+```
+## Uso Básico
 ```javascript
-import createJoinModule from 'joinmodule';
+import { createJoinModule } from 'joinmodule';
 
 const joinModule = createJoinModule({ cwd: process.cwd(), logging: { loggingType: 'console', verbose: true, logger: console } });
 
 joinModule.include('controllers').exclude('controllers/secret').then(() => {
   joinModule.into({});
 });
+```
