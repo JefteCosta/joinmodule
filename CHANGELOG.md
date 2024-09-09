@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.2](https://github.com/JefteCosta/joinmodule/compare/v1.0.1...v1.0.2) (2024-09-09)
+
+
+### Bug Fixes
+
+* **ci:** novo formato para publicação no npm traves do packages do github ([e3ab387](https://github.com/JefteCosta/joinmodule/commit/e3ab387bfa563eacc8296541d929c024b1c95979))
+
 ## [1.0.1](https://github.com/JefteCosta/joinmodule/compare/v1.0.0...v1.0.1) (2024-09-09)
 
 
