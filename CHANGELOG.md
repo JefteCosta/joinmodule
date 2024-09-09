@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.2](https://github.com/JefteCosta/joinmodule/compare/v1.3.1...v1.3.2) (2024-09-09)
+
+
+### Bug Fixes
+
+* **tsconfig:** aterando configurações para exportar types e js juntos ([f4ff274](https://github.com/JefteCosta/joinmodule/commit/f4ff274abea5916790ea45c44ff7248582dd1d3a))
+
 ## [1.3.1](https://github.com/JefteCosta/joinmodule/compare/v1.3.0...v1.3.1) (2024-09-09)
 
 
