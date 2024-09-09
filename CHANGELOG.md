@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.1.4](https://github.com/JefteCosta/joinmodule/compare/v1.1.3...v1.1.4) (2024-09-09)
+
+
+### Bug Fixes
+
+* **ci:** ativação da pubicação no npm quando tiver publicado uma tag ([d170988](https://github.com/JefteCosta/joinmodule/commit/d170988142f9e2a610ae652a6010bc92503240e0))
+* **packages:** aterando configurações do npm no pakages ([17edadc](https://github.com/JefteCosta/joinmodule/commit/17edadc4e191c46b2894589fa498fa776aabed45))
+
 ## [1.1.3](https://github.com/JefteCosta/joinmodule/compare/v1.1.2...v1.1.3) (2024-09-09)
 
 
