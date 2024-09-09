@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.12](https://github.com/JefteCosta/joinmodule/compare/v1.1.11...v1.1.12) (2024-09-09)
+
+
+### Bug Fixes
+
+* **npm:** actiondo que envia para npm ([1800ceb](https://github.com/JefteCosta/joinmodule/commit/1800cebbbe13fc8af9cd787d298d936eab3fb74b))
+
 ## [1.1.11](https://github.com/JefteCosta/joinmodule/compare/v1.1.10...v1.1.11) (2024-09-09)
 
 
