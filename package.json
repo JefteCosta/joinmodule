@@ -16,11 +16,6 @@
     "type": "git",
     "url": "git+https://github.com/JefteCosta/joinmodule.git"
   },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/jeftecosta",
-    "access": "public",
-    "tag": "latest"
-  },
   "keywords": [
     "autoload",
     "typescript",
