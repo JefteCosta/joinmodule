@@ -2,7 +2,6 @@ on:
   release:
     types:
       - published
-      - created
 
 name: npm-publish-github-packages
 jobs:
