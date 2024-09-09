@@ -37,3 +37,42 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: gh release upload ${{ steps.release.outputs.tag_name }} ./artifact/some-build-artifact.zip
+  build:
+    needs:
+      - release-please
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: npm para build
+        if: ${{ needs.release-please.steps.release.outputs.release_created }}
+        run: |
+          npm ci
+          npm test
+          npm run build
+
+  publish-gpr:
+    needs:
+      - build
+      - release-please
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      packages: write
+      attestations: write
+      id-token: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          registry-url: https://npm.pkg.github.com/jeftecosta
+      - name: npm publish
+        if: ${{ needs.release-please.steps.release.outputs.release_created }}
+        run: |
+          npm ci
+          npm publish
+        env:
+          NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
