@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.8](https://github.com/JefteCosta/joinmodule/compare/v1.1.7...v1.1.8) (2024-09-09)
+
+
+### Bug Fixes
+
+* **release-please:** refatorando o realeser plese para melhor execução ([0a891ea](https://github.com/JefteCosta/joinmodule/commit/0a891ea8eff699d95e97ecaf6c2d5fe47269cf81))
+
 ## [1.1.7](https://github.com/JefteCosta/joinmodule/compare/v1.1.6...v1.1.7) (2024-09-09)
 
 
