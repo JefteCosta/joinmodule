@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.1](https://github.com/JefteCosta/joinmodule/compare/v1.1.0...v1.1.1) (2024-09-09)
+
+
+### Bug Fixes
+
+* **ci:** erro ato tentar publicar correção de url ([952eca0](https://github.com/JefteCosta/joinmodule/commit/952eca07ceb49ef0fc574877e1dc60f312db320c))
+
 ## [1.1.0](https://github.com/JefteCosta/joinmodule/compare/v1.0.2...v1.1.0) (2024-09-09)
 
 
