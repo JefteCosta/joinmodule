@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.7](https://github.com/JefteCosta/joinmodule/compare/v1.1.6...v1.1.7) (2024-09-09)
+
+
+### Bug Fixes
+
+* **ci:** nova versão com correções para ci de release please ([84fb01d](https://github.com/JefteCosta/joinmodule/commit/84fb01de072fe0d13ba230f46047810932fe2b7d))
+
 ## [1.1.6](https://github.com/JefteCosta/joinmodule/compare/v1.1.5...v1.1.6) (2024-09-09)
 
 
