@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.1](https://github.com/JefteCosta/joinmodule/compare/v1.0.0...v1.0.1) (2024-09-09)
+
+
+### Bug Fixes
+
+* **githubaction:** reconfigurando runer para rodar somento quando uma versção for publicada ([306f15f](https://github.com/JefteCosta/joinmodule/commit/306f15febc7c0fc994072069f34b3a527027177e))
+
 ## 1.0.0 (2024-09-09)
 
 
