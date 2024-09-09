@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.13](https://github.com/JefteCosta/joinmodule/compare/v1.1.12...v1.1.13) (2024-09-09)
+
+
+### Bug Fixes
+
+* **npm:** retirando configurações do package ([d7ee39d](https://github.com/JefteCosta/joinmodule/commit/d7ee39dcc81d0954b2b39af41d7feff173a97253))
+
 ## [1.1.12](https://github.com/JefteCosta/joinmodule/compare/v1.1.11...v1.1.12) (2024-09-09)
 
 
