@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.2.1](https://github.com/JefteCosta/joinmodule/compare/v1.2.0...v1.2.1) (2024-09-09)
+
+
+### Bug Fixes
+
+* **doc:** import esta no formato errado ([b2e6e1e](https://github.com/JefteCosta/joinmodule/commit/b2e6e1e1d2d78e625a3392cb5a90b0dd9059f57d))
+* **workflow:** otmizando workflow para a execução ser mais rapida ([f79f312](https://github.com/JefteCosta/joinmodule/commit/f79f3124a8f3a19a7d45a4e868a1b28c2d164818))
+
 ## [1.2.0](https://github.com/JefteCosta/joinmodule/compare/v1.1.13...v1.2.0) (2024-09-09)
 
 

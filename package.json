@@ -1,6 +1,6 @@
 {
   "name": "joinmodule",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Autoload your script with Typescript support.",
   "type": "module",
   "main": "dist/src/index.js",
