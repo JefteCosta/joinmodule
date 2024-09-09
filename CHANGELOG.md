@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.2](https://github.com/JefteCosta/joinmodule/compare/v1.1.1...v1.1.2) (2024-09-09)
+
+
+### Bug Fixes
+
+* **ci:** aterando a check para npm e publicação vim realese ([63d99aa](https://github.com/JefteCosta/joinmodule/commit/63d99aa2d26f47aac883176670df05fb12e550b3))
+
 ## [1.1.1](https://github.com/JefteCosta/joinmodule/compare/v1.1.0...v1.1.1) (2024-09-09)
 
 
