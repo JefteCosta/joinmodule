@@ -7,6 +7,7 @@
       "noUnusedParameters": true,
       "isolatedModules": true,
       "removeComments": true,
+      "declaration": true,
       "esModuleInterop": true,
       "strictNullChecks": true,
       "allowSyntheticDefaultImports": true,
@@ -18,12 +19,12 @@
       "strictFunctionTypes": true,
       "noImplicitThis": true,
       "skipLibCheck": true,
-      "declaration": false,
       "sourceMap": true,
       "emitDecoratorMetadata": true,
       "types": ["@types/node"],
-      "rootDir": "./",
+      "rootDir": "./src",
       "outDir": "./dist",
+      "strict": true, 
     },
     "ts-node": {
       "swc": true

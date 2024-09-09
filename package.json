@@ -6,7 +6,7 @@
   "main": "src/index.js",
   "types": "src/index.d.ts",
   "scripts": {
-    "build": "tsc --build && tsc --build  --emitDeclarationOnly --declaration ",
+    "build": "tsc",
     "test": "tsx bin/test.ts",
     "prepare": "husky",
     "commitlint": "commitlint --edit",
