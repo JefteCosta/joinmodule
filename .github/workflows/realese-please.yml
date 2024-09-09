@@ -42,7 +42,9 @@ jobs:
       - name: public versions to npm
         if: ${{ steps.release.outputs.release_created }}
         run: |
+          npm install
           npm ci
+          npm run build
           npm publish --provenance --access public
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
