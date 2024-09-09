@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.11](https://github.com/JefteCosta/joinmodule/compare/v1.1.10...v1.1.11) (2024-09-09)
+
+
+### Bug Fixes
+
+* **npm:** publicando diretamento no npm para fins de teste ([78dfda3](https://github.com/JefteCosta/joinmodule/commit/78dfda3a795a3ab7b78728ecbfcedeaffcea64df))
+
 ## [1.1.10](https://github.com/JefteCosta/joinmodule/compare/v1.1.9...v1.1.10) (2024-09-09)
 
 
