@@ -1,10 +1,13 @@
-import { configure, processCLIArgs, run } from '@japa/runner'
-import { expect } from '@japa/expect'
 import { apiClient } from '@japa/api-client'
-import { fileSystem } from '@japa/file-system'
-import { expectTypeOf } from '@japa/expect-type'
-import { snapshot } from '@japa/snapshot'
 import { browserClient } from '@japa/browser-client'
+import { expect } from '@japa/expect'
+import { expectTypeOf } from '@japa/expect-type'
+import { fileSystem } from '@japa/file-system'
+import { configure, processCLIArgs, run } from '@japa/runner'
+import { snapshot } from '@japa/snapshot'
+import { register } from 'node:module'
+
+register('ts-node/esm', import.meta.url)
 
 processCLIArgs(process.argv.splice(2))
 configure({
@@ -17,7 +20,7 @@ configure({
   plugins: [
     expect(),
     apiClient('http://localhost:3333'),
-    fileSystem(),
+    // fileSystem(),
     expectTypeOf(),
     snapshot(),
     browserClient({ runInSuites: ['browser'] }),

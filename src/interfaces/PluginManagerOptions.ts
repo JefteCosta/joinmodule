@@ -1,6 +1,6 @@
 import { Plugin } from '#interfaces/Plugin';
 
-export interface PluginManager {
+export interface PluginManagerOptions {
   register(plugin: Plugin): void;
   applyAll(): void;
 }

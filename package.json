@@ -3,14 +3,18 @@
   "version": "1.0.0",
   "description": "Autoload your script with Typescript support.",
   "type": "module",
-  "main": "dist/server.js",
-  "types": "dist/index.d.ts",
+  "main": "dist/src/index.js",
+  "types": "dist/src/index.d.ts",
   "scripts": {
-    "test": "node --loader ts-node/esm --enable-source-maps bin/test.ts"
+    "build": "tsc --build && tsc --build  --emitDeclarationOnly --declaration ",
+    "test": "tsx bin/test.ts",
+    "prepare": "husky",
+    "commitlint": "commitlint --edit",
+     "commit": "cz"
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/JefteCosta/joinmodule.git"
+    "url": "git+https://git@github.com/JefteCosta/joinmodule.git"
   },
   "keywords": [
     "autoload",
@@ -26,15 +30,21 @@
   },
   "homepage": "https://github.com/JefteCosta/joinmodule#readme",
   "devDependencies": {
+    "@commitlint/cli": "^19.4.1",
+    "@commitlint/config-conventional": "^19.4.1",
     "@japa/api-client": "^2.0.3",
+    "@japa/assert": "^2.1.0",
     "@japa/browser-client": "^2.0.3",
-    "@japa/expect": "^3.0.0-1",
+    "@japa/expect": "^3.0.2",
     "@japa/expect-type": "^2.0.2",
     "@japa/file-system": "^2.3.0",
     "@japa/runner": "^3.0.0-9",
     "@japa/snapshot": "^2.0.5",
     "@swc/core": "^1.7.23",
     "@types/node": "^22.5.3",
+    "commitizen": "^4.3.0",
+    "cz-conventional-changelog": "^3.3.0",
+    "husky": "^9.1.5",
     "playwright": "^1.46.1",
     "ts-node": "^10.9.2",
     "tsx": "^4.19.0",
@@ -48,5 +58,15 @@
     "#src/*": "./src/*.js",
     "#managers/*": "./src/managers/*.js",
     "#servers/*": "./src/servers/*.js"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "husky": {
+    "hooks": {
+      "prepare-commit-msg": "exec < /dev/tty && npx cz --hook || true"
+    }
   }
 }
