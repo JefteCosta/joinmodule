@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.9](https://github.com/JefteCosta/joinmodule/compare/v1.1.8...v1.1.9) (2024-09-09)
+
+
+### Bug Fixes
+
+* **release-please:** retirando a criação de artefatos ([995d8c7](https://github.com/JefteCosta/joinmodule/commit/995d8c7a06655fe5e27634929f162c5f8325f5c2))
+
 ## [1.1.8](https://github.com/JefteCosta/joinmodule/compare/v1.1.7...v1.1.8) (2024-09-09)
 
 
