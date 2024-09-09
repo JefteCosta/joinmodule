@@ -14,7 +14,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://git@github.com/JefteCosta/joinmodule.git"
+    "url": "https://git@github.com/JefteCosta/joinmodule.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   },
   "keywords": [
     "autoload",
