@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.10](https://github.com/JefteCosta/joinmodule/compare/v1.1.9...v1.1.10) (2024-09-09)
+
+
+### Bug Fixes
+
+* **release-please:** alteração para que todo o scope fique em um unico step ([5130fa0](https://github.com/JefteCosta/joinmodule/commit/5130fa087129a36ac9a438de54e67521b2056655))
+
 ## [1.1.9](https://github.com/JefteCosta/joinmodule/compare/v1.1.8...v1.1.9) (2024-09-09)
 
 
