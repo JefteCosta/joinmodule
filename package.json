@@ -3,8 +3,8 @@
   "version": "1.2.1",
   "description": "Autoload your script with Typescript support.",
   "type": "module",
-  "main": "dist/src/index.js",
-  "types": "dist/src/index.d.ts",
+  "main": "src/index.js",
+  "types": "src/index.d.ts",
   "scripts": {
     "build": "tsc --build && tsc --build  --emitDeclarationOnly --declaration ",
     "test": "tsx bin/test.ts",
