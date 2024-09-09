@@ -8,6 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: googleapis/release-please-action@v4
+        id: release
         with:
           release-type: node
           # The short ref name of the branch or tag that triggered
@@ -28,10 +29,7 @@ jobs:
           git tag -a v${{ steps.release.outputs.major }}.${{ steps.release.outputs.minor }} -m "Release v${{ steps.release.outputs.major }}.${{ steps.release.outputs.minor }}"
           git push origin v${{ steps.release.outputs.major }}
           git push origin v${{ steps.release.outputs.major }}.${{ steps.release.outputs.minor }}
-      - uses: googleapis/release-please-action@v4
-        id: release
-        with:
-          release-type: node
+
       - name: Upload Release Artifact
         if: ${{ steps.release.outputs.release_created }}
         env:
