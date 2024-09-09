@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.0](https://github.com/JefteCosta/joinmodule/compare/v1.2.1...v1.3.0) (2024-09-09)
+
+
+### Features
+
+* **doc:** ducumentação e exemplo de uso com exteções especificas ([c8417ef](https://github.com/JefteCosta/joinmodule/commit/c8417ef0c0ea6ce4e9bfab69f779191ef2bd7d1f))
+
 ## [1.2.1](https://github.com/JefteCosta/joinmodule/compare/v1.2.0...v1.2.1) (2024-09-09)
 
 
