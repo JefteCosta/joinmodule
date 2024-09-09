@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.3](https://github.com/JefteCosta/joinmodule/compare/v1.1.2...v1.1.3) (2024-09-09)
+
+
+### Bug Fixes
+
+* **ci:** auterando workflow de publicação no npm ([db2072a](https://github.com/JefteCosta/joinmodule/commit/db2072ac3f8838b3d0e2579948e5f38db0aa007c))
+
 ## [1.1.2](https://github.com/JefteCosta/joinmodule/compare/v1.1.1...v1.1.2) (2024-09-09)
 
 
