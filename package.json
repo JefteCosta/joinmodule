@@ -17,7 +17,9 @@
     "url": "git+https://git@github.com/JefteCosta/joinmodule.git"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
+    "registry": "https://npm.pkg.github.com",
+    "access": "public",
+    "tag": "latest"
   },
   "keywords": [
     "autoload",
