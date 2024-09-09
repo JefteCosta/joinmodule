@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.0](https://github.com/JefteCosta/joinmodule/compare/v1.0.2...v1.1.0) (2024-09-09)
+
+
+### Features
+
+* **npm:** criando um arquvo para a piblicação do modulo no npm ([e3e8893](https://github.com/JefteCosta/joinmodule/commit/e3e8893b27dd6e4149aff82c0ebc6f7f92053558))
+
 ## [1.0.2](https://github.com/JefteCosta/joinmodule/compare/v1.0.1...v1.0.2) (2024-09-09)
 
 
