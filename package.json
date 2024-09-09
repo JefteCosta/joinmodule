@@ -10,7 +10,7 @@
     "test": "tsx bin/test.ts",
     "prepare": "husky",
     "commitlint": "commitlint --edit",
-     "commit": "cz"
+    "commit": "cz"
   },
   "repository": {
     "type": "git",
