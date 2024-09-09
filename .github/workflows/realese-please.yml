@@ -31,14 +31,9 @@ jobs:
           git push origin v${{ steps.release.outputs.major }}.${{ steps.release.outputs.minor }}
       - uses: actions/setup-node@v4
         with:
-          node-version: 20
-          registry-url: https://npm.pkg.github.com/jeftecosta
-      - name: npm para build
-        if: ${{ steps.release.outputs.release_created }}
-        run: |
-          npm ci
-          npm test
-          npm run build
-          npm publish
+          node-version: "20.x"
+          registry-url: "https://registry.npmjs.org"
+      - run: npm ci
+      - run: npm publish --provenance --access public
         env:
-          NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
