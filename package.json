@@ -14,10 +14,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://git@github.com/JefteCosta/joinmodule.git"
+    "url": "git+https://github.com/JefteCosta/joinmodule.git"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com",
+    "registry": "https://npm.pkg.github.com/JefteCosta",
     "access": "public",
     "tag": "latest"
   },
