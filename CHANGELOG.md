@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.5](https://github.com/JefteCosta/joinmodule/compare/v1.1.4...v1.1.5) (2024-09-09)
+
+
+### Bug Fixes
+
+* **ci:** adicionando um namespace para npm ([2c31b7d](https://github.com/JefteCosta/joinmodule/commit/2c31b7dabfc8cf37acc4e67fb37331b90b0c50a1))
+
 ## [1.1.4](https://github.com/JefteCosta/joinmodule/compare/v1.1.3...v1.1.4) (2024-09-09)
 
 
