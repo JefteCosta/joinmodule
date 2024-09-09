@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.2.0](https://github.com/JefteCosta/joinmodule/compare/v1.1.13...v1.2.0) (2024-09-09)
+
+
+### Features
+
+* **doc:** criando doc para exemplo de ultilização ([54db4d1](https://github.com/JefteCosta/joinmodule/commit/54db4d1245eac472375313cdf4769ead253c33ac))
+
+
+### Bug Fixes
+
+* **npm:** otmizando para subir em um unico action ([6588631](https://github.com/JefteCosta/joinmodule/commit/6588631fa1df07f26172d01da13e95eaf927da61))
+
 ## [1.1.13](https://github.com/JefteCosta/joinmodule/compare/v1.1.12...v1.1.13) (2024-09-09)
 
 
