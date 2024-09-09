@@ -20,7 +20,18 @@ joinModule.include('controllers').exclude('controllers/secret').then(() => {
   joinModule.into({});
 });
 ```
+## Uso com verificação de exteções
+```javascript
+import { createJoinModule } from 'joinmodule';
 
+// Inicializar o JoinModule
+const joinModule = new JoinModule({
+  cwd: path.resolve(__dirname),
+  logger: logger,
+  verbose: true,
+  extensions: ['.ts', '.js'],
+});
+```
 ### Conclusão
 
 O `JoinModule` agora é um projeto robusto e extensível, pronto para ser utilizado em diversos cenários. Ele inclui melhorias significativas em segurança, modularidade, usabilidade e suporte a extensões. Com a adição de uma documentação clara e testes automatizados, ele se torna uma ferramenta confiável e intuitiva para desenvolvedores que buscam gerenciar módulos de forma eficaz em seus projetos Node.js. 
