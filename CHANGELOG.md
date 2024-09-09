@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.6](https://github.com/JefteCosta/joinmodule/compare/v1.1.5...v1.1.6) (2024-09-09)
+
+
+### Bug Fixes
+
+* **ci:** ateração do fluxo para pull request ([98a3bcc](https://github.com/JefteCosta/joinmodule/commit/98a3bcc0949e8f8b0b372c6177625b73d4396545))
+
 ## [1.1.5](https://github.com/JefteCosta/joinmodule/compare/v1.1.4...v1.1.5) (2024-09-09)
 
 
