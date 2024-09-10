@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.5](https://github.com/JefteCosta/joinmodule/compare/v1.3.4...v1.3.5) (2024-09-10)
+
+
+### Bug Fixes
+
+* **tsconfig:** nova configuração do ts ([7f5254c](https://github.com/JefteCosta/joinmodule/commit/7f5254cb7fe95bf9a0996752dd2b1ab92f88971b))
+
 ## [1.3.4](https://github.com/JefteCosta/joinmodule/compare/v1.3.3...v1.3.4) (2024-09-10)
 
 
