@@ -1,6 +1,6 @@
 {
   "name": "joinmodule",
-  "version": "1.3.2",
+  "version": "1.3.3",
   "description": "Autoload your script with Typescript support.",
   "type": "module",
   "main": "src/index.js",
@@ -42,7 +42,6 @@
     "tsx": "^4.19.0",
     "typescript": "^5.5.4"
   },
-  
   "config": {
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
