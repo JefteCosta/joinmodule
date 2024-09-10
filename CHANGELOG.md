@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.3.4](https://github.com/JefteCosta/joinmodule/compare/v1.3.3...v1.3.4) (2024-09-10)
+
+
+### Bug Fixes
+
+* **config:** tsconfig para melhorias ([15a312e](https://github.com/JefteCosta/joinmodule/commit/15a312ef7cdca065b613ba53cf89093b1daa0c0e))
+* **packages:** ateração do package para instalação do pacotes necessarios ([fe2e37d](https://github.com/JefteCosta/joinmodule/commit/fe2e37d0555e4997fddc81de645805369b4a5be2))
+
 ## [1.3.3](https://github.com/JefteCosta/joinmodule/compare/v1.3.2...v1.3.3) (2024-09-10)
 
 
