@@ -1,5 +1,5 @@
 
-import { LoggingOptions } from '../interfaces/LoggingOptions.ts';
+import { LoggingOptions } from '../interfaces/LoggingOptions.js';
 import fs from 'fs';
 
 export class Logger {

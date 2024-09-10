@@ -25,9 +25,6 @@
       "rootDir": "./src",
       "outDir": "./dist",
       "strict": true,
-      "moduleResolution": "NodeNext",
-      "allowImportingTsExtensions": true,
-      "noEmit": true
     },
     "ts-node": {
       "swc": true
