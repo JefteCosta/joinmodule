@@ -1,6 +1,6 @@
-import type { FileHandlingOptions } from '#interfaces/FileHandlingOptions';
-import type { LoggingOptions } from '#interfaces/LoggingOptions';
-import type { Plugin } from '#interfaces/Plugin';
+import type { FileHandlingOptions } from './FileHandlingOptions.ts';
+import type { LoggingOptions } from './LoggingOptions.ts';
+import type { Plugin } from './Plugin.ts';
 
 export interface JoinModuleOptions extends LoggingOptions, FileHandlingOptions {
     cwd?: string;

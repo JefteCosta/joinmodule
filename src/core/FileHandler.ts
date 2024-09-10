@@ -1,5 +1,5 @@
-import type { FileHandlingOptions, CIFileHandler, LocationsReturn } from '#interfaces/FileHandlingOptions';
-import { Logger } from '#src/core/Logger';
+import type { FileHandlingOptions, CIFileHandler, LocationsReturn } from '../interfaces/FileHandlingOptions';
+import { Logger } from './Logger';
 import * as fs from 'fs';
 import * as path from 'path';
 import { fileURLToPath, pathToFileURL } from 'url'

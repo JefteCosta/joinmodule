@@ -1,7 +1,7 @@
 {
     "compilerOptions": {
       "target": "ESNext",
-      "module": "NodeNext",
+      "module": "ESNext",
       "lib": ["ESNext"],
       "noUnusedLocals": true,
       "noUnusedParameters": true,
@@ -24,12 +24,12 @@
       "types": ["@types/node"],
       "rootDir": "./src",
       "outDir": "./dist",
-      "strict": true, 
+      "strict": true,
+      "moduleResolution": "Node",
+      
     },
-    "ts-node": {
-      "swc": true
-    },
+    
     "include": ["src/**/*.ts"],
-    "exclude": ["node_modules", "tests", "bin"]
+    "exclude": ["node_modules"]
   }
   

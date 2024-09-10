@@ -1,4 +1,4 @@
-import { Plugin } from '#interfaces/Plugin';
+import { Plugin } from './Plugin';
 
 export interface PluginManagerOptions {
   register(plugin: Plugin): void;

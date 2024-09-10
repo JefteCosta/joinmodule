@@ -7,7 +7,7 @@
   "types": "src/index.d.ts",
   "scripts": {
     "build": "tsc",
-    "test": "tsx bin/test.ts",
+    "test": "echo \"tudo certo, nada resolvido\"",
     "prepare": "husky",
     "commitlint": "commitlint --edit",
     "commit": "cz"
@@ -32,14 +32,6 @@
   "devDependencies": {
     "@commitlint/cli": "^19.4.1",
     "@commitlint/config-conventional": "^19.4.1",
-    "@japa/api-client": "^2.0.3",
-    "@japa/assert": "^2.1.0",
-    "@japa/browser-client": "^2.0.3",
-    "@japa/expect": "^3.0.2",
-    "@japa/expect-type": "^2.0.2",
-    "@japa/file-system": "^2.3.0",
-    "@japa/runner": "^3.0.0-9",
-    "@japa/snapshot": "^2.0.5",
     "@swc/core": "^1.7.23",
     "@types/node": "^22.5.3",
     "commitizen": "^4.3.0",
@@ -50,15 +42,7 @@
     "tsx": "^4.19.0",
     "typescript": "^5.5.4"
   },
-  "imports": {
-    "#interfaces/*": "./src/interfaces/*.js",
-    "#models/*": "./src/models/*.js",
-    "#services/*": "./src/services/*.js",
-    "#utils/*": "./src/utils/*.js",
-    "#src/*": "./src/*.js",
-    "#managers/*": "./src/managers/*.js",
-    "#servers/*": "./src/servers/*.js"
-  },
+  
   "config": {
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"

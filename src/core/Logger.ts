@@ -1,5 +1,5 @@
 
-import { LoggingOptions } from '#interfaces/LoggingOptions';
+import { LoggingOptions } from '../interfaces/LoggingOptions';
 import fs from 'fs';
 
 export class Logger {
