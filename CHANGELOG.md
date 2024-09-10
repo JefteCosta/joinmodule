@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.6](https://github.com/JefteCosta/joinmodule/compare/v1.3.5...v1.3.6) (2024-09-10)
+
+
+### Bug Fixes
+
+* **tsconfig:** ateração para mehoramento do import ([7525b86](https://github.com/JefteCosta/joinmodule/commit/7525b8605147072cfde1a01e42f920b1655bdab7))
+
 ## [1.3.5](https://github.com/JefteCosta/joinmodule/compare/v1.3.4...v1.3.5) (2024-09-10)
 
 
