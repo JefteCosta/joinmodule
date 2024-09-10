@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.7](https://github.com/JefteCosta/joinmodule/compare/v1.3.6...v1.3.7) (2024-09-10)
+
+
+### Bug Fixes
+
+* **joinmodule:** ateração para testes com async await ([af09986](https://github.com/JefteCosta/joinmodule/commit/af0998627c3a41c7248bb6509bebfdd44b2f631f))
+
 ## [1.3.6](https://github.com/JefteCosta/joinmodule/compare/v1.3.5...v1.3.6) (2024-09-10)
 
 
