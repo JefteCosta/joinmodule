@@ -1,4 +1,4 @@
-import { JoinModuleOptions } from './JoinModuleOptions';
+import { JoinModuleOptions } from './JoinModuleOptions.ts';
 
 export interface EnvironmentConfig {
   development?: JoinModuleOptions;

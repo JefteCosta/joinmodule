@@ -1,5 +1,5 @@
-import { Plugin } from '../interfaces/Plugin';
-import { JoinModule } from './JoinModule';
+import { Plugin } from '../interfaces/Plugin.ts';
+import { JoinModule } from './JoinModule.ts';
 
 export class PluginManager {
   private plugins: Plugin[] = [];

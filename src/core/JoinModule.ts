@@ -1,7 +1,7 @@
-import type { JoinModuleOptions, CIJoinModule, Namespace } from '../interfaces/JoinModuleOptions';
-import { FileHandler } from './FileHandler';
-import { Logger } from './Logger';
-import { PluginManager } from './PluginManager';
+import type { JoinModuleOptions, CIJoinModule, Namespace } from '../interfaces/JoinModuleOptions.ts';
+import { FileHandler } from './FileHandler.ts';
+import { Logger } from './Logger.ts';
+import { PluginManager } from './PluginManager.ts';
 import * as path from 'path';
 import * as fs from 'fs';
 

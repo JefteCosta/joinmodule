@@ -22,11 +22,12 @@
       "sourceMap": true,
       "emitDecoratorMetadata": true,
       "types": ["@types/node"],
-      // Remove or update the moduleResolution option
-      "moduleResolution": "Node",
       "rootDir": "./src",
       "outDir": "./dist",
-      "strict": true
+      "strict": true,
+      "moduleResolution": "NodeNext",
+      "allowImportingTsExtensions": true,
+      "noEmit": true
     },
     "ts-node": {
       "swc": true
