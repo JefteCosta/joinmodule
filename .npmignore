@@ -4,3 +4,4 @@ examples
 bin
 .github
 .husky
+tsconfig.json
