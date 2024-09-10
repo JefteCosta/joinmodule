@@ -7,7 +7,7 @@
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc",
-    "test": "echo \"tudo certo, nada resolvido\"",
+    "test": "node --loader ts-node/esm --enable-source-maps bin/test.ts",
     "prepare": "husky",
     "commitlint": "commitlint --edit",
     "commit": "cz"
@@ -32,20 +32,23 @@
   "devDependencies": {
     "@commitlint/cli": "^19.4.1",
     "@commitlint/config-conventional": "^19.4.1",
+    "@japa/api-client": "^2.0.0-1",
+    "@japa/assert": "^2.0.0-2",
+    "@japa/expect-type": "^2.0.0-1",
+    "@japa/runner": "^3.0.0-9",
     "@swc/core": "^1.7.23",
     "@types/node": "^22.5.3",
     "commitizen": "^4.3.0",
     "cz-conventional-changelog": "^3.3.0",
     "husky": "^9.1.5",
-    "playwright": "^1.46.1",
     "ts-node": "^10.9.2",
     "tsx": "^4.19.0",
     "typescript": "^5.5.4"
   },
   "peerDependencies": {
     "@types/node": "^22.5.3",
-    "typescript": "^5.5.4",
-    "ts-node": "^10.9.2"
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4"
   },
   "config": {
     "commitizen": {
