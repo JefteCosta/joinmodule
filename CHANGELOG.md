@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.3](https://github.com/JefteCosta/joinmodule/compare/v1.3.2...v1.3.3) (2024-09-10)
+
+
+### Bug Fixes
+
+* **tsconfig:** ateração de configurações para melhorar o modulos de joinmodule ([16f976e](https://github.com/JefteCosta/joinmodule/commit/16f976ec36e175cabc513b08a5381174a070cad8))
+
 ## [1.3.2](https://github.com/JefteCosta/joinmodule/compare/v1.3.1...v1.3.2) (2024-09-09)
 
 
